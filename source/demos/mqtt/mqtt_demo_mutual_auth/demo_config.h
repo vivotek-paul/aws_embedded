@@ -57,6 +57,12 @@
  *
  * #define AWS_IOT_ENDPOINT               "...insert here..."
  */
+#define AWS_IOT_ENDPOINT            "a2vbbdorkkxq7n-ats.iot.ap-northeast-1.amazonaws.com"
+#define AWS_MQTT_PORT               (8883)
+#define CLIENT_IDENTIFIER           "testclient"
+#define ROOT_CA_CERT_PATH           "certificates/AmazonRootCA1.pem"
+#define CLIENT_CERT_PATH            "certificates/certificate.pem.crt"
+#define CLIENT_PRIVATE_KEY_PATH     "certificates/private.pem.key"
 
 /**
  * @brief AWS IoT MQTT broker port number.
